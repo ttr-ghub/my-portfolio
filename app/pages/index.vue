@@ -17,6 +17,7 @@ const categoryLabels: Record<string, string> = {
   frontend: 'Frontend',
   backend: 'Backend',
   database: 'Database',
+  design: 'Design',
   devops: 'DevOps',
 }
 

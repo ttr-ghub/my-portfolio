@@ -10,7 +10,7 @@ export interface Profile {
 export interface Skill {
   id: number
   name: string
-  category: 'frontend' | 'backend' | 'database' | 'devops'
+  category: 'frontend' | 'backend' | 'database' | 'design' | 'devops'
   level: 'learning' | 'intermediate' | 'advanced'
   icon: string
 }
