@@ -3,7 +3,7 @@
     <header class="labs-header">
       <NuxtLink to="/" class="back-btn">← ポートフォリオに戻る</NuxtLink>
       <div class="labs-badge">🔬 Labs</div>
-      <h1 class="labs-title">実験室</h1>
+      <h1 class="labs-title">Labs</h1>
       <p class="labs-desc">学習・挑戦した技術を実際に動くデモとして公開しています</p>
     </header>
 
