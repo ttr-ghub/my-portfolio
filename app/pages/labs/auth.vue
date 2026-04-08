@@ -58,7 +58,7 @@ async function logout() {
           <h2 class="secret-title">🎉 ログイン成功！</h2>
           <p class="secret-text">
             ここはログインしたユーザーだけが見られる領域です。<br>
-            実際のアプリでは、APIレートの制限解除や個人データの表示などに使います。
+            実際のアプリでは、個人データの表示などに使います。
           </p>
         </div>
 

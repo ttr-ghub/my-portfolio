@@ -19,6 +19,7 @@ const categoryLabels: Record<string, string> = {
   database: 'Database',
   design: 'Design',
   devops: 'DevOps',
+  check: 'Check',
 }
 
 const levelLabels: Record<string, string> = {

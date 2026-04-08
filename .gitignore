@@ -24,3 +24,6 @@ logs
 !.env.example
 
 /app/generated/prisma
+
+# Private docs
+docs/portfolio-guide.md
