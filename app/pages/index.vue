@@ -39,10 +39,7 @@ const levelLabels: Record<string, string> = {
         <p class="hero-title">{{ profile?.title }}</p>
         <p class="hero-bio">{{ profile?.bio }}</p>
         <div class="hero-links">
-          <a :href="profile?.githubUrl" target="_blank" class="btn btn-primary">
-            🐙 GitHub
-          </a>
-          <a href="#skills" class="btn btn-secondary">スキルを見る</a>
+          <a href="#skills" class="btn btn-primary">スキルを見る</a>
           <NuxtLink to="/labs" class="btn btn-secondary">🔬 プロダクト (Labs)</NuxtLink>
         </div>
         <p class="hero-location">📍 {{ profile?.location }}</p>
