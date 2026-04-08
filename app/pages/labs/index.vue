@@ -23,20 +23,19 @@
         <div class="lab-arrow">→</div>
       </NuxtLink>
 
-      <!-- 今後追加予定のデモ -->
-      <div class="lab-card lab-card--coming">
+      <NuxtLink to="/labs/auth" class="lab-card">
         <div class="lab-icon">🔐</div>
         <div class="lab-info">
-          <h2 class="lab-name">認証基盤 (Entra ID / MSAL)</h2>
-          <p class="lab-description">Microsoft Entra ID を使ったログイン認証デモ。近日公開予定。</p>
+          <h2 class="lab-name">GitHub 認証 (OAuth 2.0)</h2>
+          <p class="lab-description">GitHub OAuth 2.0 を使ったログイン認証デモ。Cookie ベースの暗号化セッションで状態を管理します。</p>
           <div class="lab-tags">
-            <span class="tag">MSAL</span>
-            <span class="tag">Entra ID</span>
-            <span class="tag">JWT</span>
+            <span class="tag">nuxt-auth-utils</span>
+            <span class="tag">GitHub OAuth</span>
+            <span class="tag">Cookie Session</span>
           </div>
         </div>
-        <div class="lab-arrow coming-label">Coming Soon</div>
-      </div>
+        <div class="lab-arrow">→</div>
+      </NuxtLink>
     </div>
   </div>
 </template>
